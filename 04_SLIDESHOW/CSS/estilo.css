@@ -32,10 +32,14 @@ GLOBAL
     padding: 0px;
 }
 
+.image-fondo {
+    background-image: url("../IMG/fondoGris.png");
+}
 
-/*
-   ENCABEZADO
-*/
+
+/*=============================================
+CABEZOTE
+=============================================*/
 
 header #logotipo {
     text-align: center;
@@ -44,17 +48,18 @@ header #logotipo {
 
 header nav ul li a {
     display: block;
-    background: rgb(194, 161, 233);
+    background: rgb(221, 88, 233);
     text-align: center;
     padding: 10px;
-    color: black;
-    border-radius: 10px;
+    color: white;
+    border-radius: 8px;
+    opacity: .5;
 }
 
 
-/*
-   SLIDE
-*/
+/*=============================================
+SLIDESHOW
+=============================================*/
 
 #slide {
     position: relative;
@@ -121,7 +126,7 @@ header nav ul li a {
 
 #slide #avanzar {
     top: 45%;
-    left: 2%;
+    right: 2%;
 }
 
 #slide ul li .textoSlide {
@@ -139,15 +144,15 @@ header nav ul li a {
     padding: 5px 0;
 }
 
-#slide ul li .textoSlide h2 {
+#slide ul li .textoSlide h3 {
     background: rgba(0, 0, 0, .5);
     padding-bottom: 10px;
 }
 
 
 /*=============================================
-   PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
-   =============================================*/
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
 
 @media(min-width:1200px) {
     .col-lg-12 {
@@ -189,9 +194,7 @@ header nav ul li a {
     .col-lg-0 {
         display: none;
     }
-    /*
-    ENCABEZADO
-    */
+    /*CABEZOTE*/
     header nav ul li a {
         margin: 30% 5px;
         font-size: 14px;
@@ -203,8 +206,8 @@ header nav ul li a {
 
 
 /*=============================================
-   PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
-   =============================================*/
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+=============================================*/
 
 @media(max-width:1199px) and (min-width:992px) {
     .col-md-12 {
@@ -246,11 +249,9 @@ header nav ul li a {
     .col-md-0 {
         display: none;
     }
-    /*
-    ENCABEZADO
-    */
+    /*CABEZOTE*/
     header nav ul li a {
-        margin: 50% 5px;
+        margin: 30% 5px;
         font-size: 14px;
     }
     header #logotipo img {
@@ -260,8 +261,8 @@ header nav ul li a {
 
 
 /*=============================================
-   PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
-   =============================================*/
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+=============================================*/
 
 @media(max-width:991px) and (min-width:768px) {
     .col-sm-12 {
@@ -303,11 +304,9 @@ header nav ul li a {
     .col-sm-0 {
         display: none;
     }
-    /*
-    ENCABEZADO
-    */
+    /*CABEZOTE*/
     header nav ul li a {
-        margin: 60% 2px;
+        margin: 28% 2px;
         font-size: 10px;
     }
     header #logotipo img {
@@ -324,8 +323,8 @@ header nav ul li a {
 
 
 /*=============================================
-   PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
-   =============================================*/
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+=============================================*/
 
 @media(max-width:767px) {
     .col-xs-12 {
@@ -367,9 +366,7 @@ header nav ul li a {
     .col-xs-0 {
         display: none;
     }
-    /*
-    ENCABEZADO
-    */
+    /*CABEZOTE*/
     header nav ul li a {
         margin: 0px;
         font-size: 14px;
