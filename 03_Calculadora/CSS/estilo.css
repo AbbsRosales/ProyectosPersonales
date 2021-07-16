@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+center {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: rgb(182, 116, 99);
+    color: cornsilk;
+    font-weight: bold;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.image-fondo {
+    background-image: url("../IMG/fondo1.jpg");
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 0.9;
+}
+
+#calculadora {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 650px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: #ddd;
+}
+
+#operaciones {
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    background: white;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 10%;
+    text-align: right;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+#calculadora ul {
+    margin-left: 5px;
+}
+
+#calculadora ul li {
+    float: left;
+    padding: 32px;
+    width: 15px;
+    text-align: center;
+    margin: 8px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #999;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculadora ul li:hover {
+    background: violet;
+    color: white;
+}
+
+#calculadora ul li:active {
+    background: aquamarine;
+    color: white;
+}
+
+#borrar {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 15px;
+    width: 60px;
+    background: rgb(182, 116, 99);
+    border-radius: 10px;
+    left: 150px;
+    border: 5px solid #bbb;
+    color: white;
+    cursor: pointer;
+}
+
+#borrar:hover {
+    background: violet;
+    color: white;
+}
+
+#borrar:active {
+    background: aquamarine;
+    color: white;
+}
