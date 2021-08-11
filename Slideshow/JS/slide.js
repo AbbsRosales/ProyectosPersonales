@@ -34,7 +34,6 @@ var m = {
 
         //Para realizar de forma dinamica el aumento de imagenes
         //p.cajaSlide.style.width = (p.paginacion.length * 100) + "%";
-
     },
     paginacionSlide: function(item) {
         //propiedad parentNode nos muestra el papá de un elemento
